@@ -4,7 +4,7 @@ Buka `index.html` di browser untuk menjalankan website di laptop. Foto dan font 
 
 ## Mengganti isi
 
-- Ubah judul, tahapan KKN, foto/nama/jabatan pimpinan, slogan, dan kontak di `index.html`.
+- Ubah judul, jenis-jenis KKN, tahapan KKN, foto/nama/jabatan pimpinan, slogan, dan kontak di `index.html`.
 - Ubah berita, pengumuman, agenda, dan keterangan foto galeri di `content.js`.
 - Simpan foto di `assets/`, lalu tulis lokasi file yang sesuai pada `src` gambar di HTML atau kolom `image` di `content.js`.
 - Ubah warna dan tampilan di `styles.css`.
@@ -24,3 +24,5 @@ Simpan perubahan dan muat ulang browser untuk memeriksa hasilnya. Untuk GitHub P
 Profil dan identitas pimpinan dirujuk dari laman resmi UNM dan LP2M. Foto Kepala LP2M diambil dari profil publik PERMI. Sembilan tahapan KKN diringkas dari poster Alur Pelaksanaan KKN UNM yang diberikan pengelola. Jadwal dan ketentuan mengikuti pengumuman resmi yang berlaku. Rincian rujukan tersedia di `SUMBER_KONTEN.md`.
 
 Berita dan foto galeri dirujuk dari publikasi UNM dan Prodi Kewirausahaan. Pengumuman awal merupakan arsip. Agenda awal mencatat 18 Februari dan 3 September 2026. Tambahkan jadwal berikutnya setelah tersedia.
+
+Bagian jenis-jenis KKN berada pada elemen `id="jenis-kkn"` di `index.html`. Ubah judul dan paragraf pada kartu Reguler, Terpadu, Tematik, Kebangsaan, atau Internasional sesuai informasi program yang sudah dikonfirmasi. Tautan bagian ini tersedia pada menu utama dan bagian bawah halaman.

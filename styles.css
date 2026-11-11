@@ -622,3 +622,29 @@ a.stage-action { text-decoration: underline; text-underline-offset: 4px; }
   .social-links { grid-template-columns: 1fr; gap: 10px; }
   .social-link { padding: 15px 17px; }
 }
+
+/* Pengenalan lima jenis KKN. */
+.kkn-types-section { padding-block: 76px; }
+.kkn-types-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 16px; list-style: none; margin: 0; padding: 0; }
+.kkn-type-card { min-width: 0; padding: 25px 21px; border: 1px solid var(--line); border-radius: 4px; background: var(--white); }
+.kkn-type-icon { display: grid; place-items: center; width: 43px; height: 43px; border-radius: 8px; background: var(--gold-soft); color: #7b5a0e; }
+.kkn-type-icon svg { width: 25px; height: 25px; }
+.kkn-type-card h3 { margin-top: 22px; font-size: 19px; line-height: 1.4; letter-spacing: -.3px; }
+.kkn-type-card p { margin-top: 11px; font-size: 12px; color: var(--muted); line-height: 1.85; }
+.kkn-types-footer { display: flex; justify-content: space-between; align-items: center; gap: 30px; margin-top: 24px; }
+.kkn-types-footer > p { font-size: 11px; line-height: 1.8; color: var(--muted); }
+.kkn-types-footer .text-link { flex-shrink: 0; font-size: 12px; }
+.footer-main nav { flex-wrap: wrap; }
+@media (max-width: 1100px) {
+  .kkn-types-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 760px) {
+  .kkn-types-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .kkn-types-section { padding-block: 60px; }
+  .kkn-types-footer { align-items: flex-start; flex-direction: column; gap: 10px; }
+}
+@media (max-width: 480px) {
+  .kkn-types-grid { grid-template-columns: 1fr; gap: 12px; }
+  .kkn-type-card { padding: 23px; }
+  .kkn-type-card h3 { margin-top: 16px; }
+}

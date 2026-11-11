@@ -32,3 +32,13 @@ Empat alamat berikut diberikan oleh pengelola pada 11 November 2026.
 - Facebook https://www.facebook.com/profile.php?id=100067019782543
 - TikTok https://www.tiktok.com/@pusatkknunm
 - YouTube https://www.youtube.com/@pusatkknunm
+
+## Jenis-jenis KKN
+
+Lima nama jenis KKN diberikan oleh pengelola pada 11 November 2026. Deskripsi berupa ringkasan fokus umum program berdasarkan publikasi UNM berikut. Ketersediaan program serta persyaratannya tetap mengikuti pengumuman yang berlaku.
+
+- Reguler dan Terpadu https://akuntansi-fe.unm.ac.id/pendaftaran-kkn-ppl-terpadu-dan-kkn-reguler-unm/
+- Terpadu di sekolah dan masyarakat https://ojs.unm.ac.id/JLLO/article/view/72371
+- Tematik Literasi https://lp2m.unm.ac.id/2026/09/15/perpusnas-dan-kemendiktisaintek-lepas-300-mahasiswa-unm-untuk-kkn-tematik-literasi/
+- Kebangsaan https://unm.ac.id/2024/07/26/dampingi-mahasiswa-unm-prof-aslinda-hadiri-pembukaan-kkn-kebangsaan-dan-pencanganan-zona-integritas-di-ambon/
+- Internasional dan Kebangsaan https://lp2m.unm.ac.id/pusat-kkn-pemberdayaan-masyarakat/
