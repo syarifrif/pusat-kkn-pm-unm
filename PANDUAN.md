@@ -9,7 +9,7 @@ Buka `index.html` di browser untuk menjalankan website di laptop. Foto dan font 
 - Simpan foto di `assets/`, lalu tulis lokasi file yang sesuai pada `src` gambar di HTML atau kolom `image` di `content.js`.
 - Ubah warna dan tampilan di `styles.css`.
 
-Foto latar beranda menggunakan `assets/menara-pinisi.jpg`. Foto pimpinan menggunakan `farida-patittingi.png`, `oslan-jumadi.jpeg`, `suarlin.png`, `andi-aslinda.jpg`, `hartati.png`, `arifin-manggau.jpg`, dan `syahruddin.jpg` di folder `assets/`. Saat mengganti foto, perbarui juga nama, jabatan, teks alternatif `alt`, dan tautan sumber. Slogan berada di elemen berkelas `footer-motto`.
+Foto latar beranda menggunakan `assets/menara-pinisi.jpg`. Foto pimpinan menggunakan `farida-patittingi.png`, `oslan-jumadi.jpeg`, `suarlin.png`, `andi-aslinda.jpg`, `hartati.png`, `arifin-manggau.jpg`, dan `syahruddin.jpg` di folder `assets/`. Saat mengganti foto, perbarui juga nama, jabatan, teks alternatif `alt`, dan tautan sumber. Slogan utama berada pada judul beranda dengan `id="hero-heading"`. Tautan Instagram, Facebook, TikTok, dan YouTube berada pada bagian `contact-socials` di `index.html`. Perbarui alamat `href`, nama akun, dan label aksesibilitas `aria-label` bersama-sama jika akun berubah.
 
 Setiap berita mempunyai `id` unik, kategori, tanggal, judul, ringkasan, foto, paragraf, dan tautan sumber. Gunakan kategori `Literasi` atau `Kegiatan`, atau tambahkan tombol kategori di `index.html`.
 

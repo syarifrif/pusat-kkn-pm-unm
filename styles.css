@@ -540,7 +540,6 @@ body.dialog-open { overflow: hidden; }
 .stage-action { display: inline-flex; align-items: center; gap: 12px; margin-top: 14px; color: #785506; font-size: 10px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; }
 a.stage-action { text-decoration: underline; text-underline-offset: 4px; }
 .stages-note { margin-top: 23px; font-size: 11px; color: var(--muted); }
-.footer-motto { margin-top: 12px; color: var(--gold); font-size: 12px; letter-spacing: .25px; }
 @media (max-width: 1180px) and (min-width: 961px) { .main-navigation { gap: 13px; font-size: 10px; } .main-navigation .contact-nav { padding-inline: 9px; } }
 @media (max-width: 1150px) {
   .leader-primary { gap: 13px; padding: 14px; }
@@ -601,5 +600,25 @@ a.stage-action { text-decoration: underline; text-underline-offset: 4px; }
   .stages-intro > p { font-size: 13px; }
   .stages-note { font-size: 10px; }
   .footer-identity { width: 100%; }
-  .footer-motto { font-size: 12px; }
+}
+
+/* Kanal media sosial di bagian Hubungi Kami. */
+.contact-socials { margin-top: 38px; padding-top: 28px; border-top: 1px solid rgb(36 39 32 / 25%); }
+.contact-socials h3 { font-family: var(--body); font-size: 15px; font-weight: 600; line-height: 1.5; margin-bottom: 17px; }
+.social-links { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 15px; }
+.social-link { display: flex; align-items: center; gap: 13px; padding: 17px; min-width: 0; border: 1px solid rgb(36 39 32 / 27%); border-radius: 4px; background: rgb(255 255 255 / 13%); }
+.social-link:hover { background: rgb(255 255 255 / 32%); border-color: var(--ink); }
+.social-icon { display: grid; place-items: center; flex: 0 0 27px; width: 27px; height: 27px; }
+.social-icon svg { width: 26px; height: 26px; }
+.social-label { min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.social-label strong { font-size: 13px; line-height: 1.4; }
+.social-label > span { font-size: 11px; line-height: 1.5; }
+.social-arrow { margin-left: auto; font-size: 21px; line-height: 1; }
+@media (max-width: 960px) {
+  .social-links { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 480px) {
+  .contact-socials { margin-top: 28px; padding-top: 24px; }
+  .social-links { grid-template-columns: 1fr; gap: 10px; }
+  .social-link { padding: 15px 17px; }
 }

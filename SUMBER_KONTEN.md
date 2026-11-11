@@ -23,3 +23,12 @@ Foto Menara Pinisi menggunakan aset yang sudah tersedia pada website. Foto pimpi
 ## Tahapan dan slogan
 
 Mengikuti poster Alur Pelaksanaan KKN UNM yang diberikan pengelola. Teks diringkas untuk tampilan web dengan mempertahankan urutan sembilan tahapan. Rujukan LMS menggunakan laman utama https://lms.unm.ac.id/ agar tidak mengarah ke kategori mata kuliah yang mungkin berubah. Tidak ada tanggal pendaftaran baru yang ditambahkan.
+
+## Media sosial
+
+Empat alamat berikut diberikan oleh pengelola pada 11 November 2026.
+
+- Instagram https://www.instagram.com/pusatkknunm/
+- Facebook https://www.facebook.com/profile.php?id=100067019782543
+- TikTok https://www.tiktok.com/@pusatkknunm
+- YouTube https://www.youtube.com/@pusatkknunm
