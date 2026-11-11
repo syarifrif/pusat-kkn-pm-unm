@@ -1,20 +1,26 @@
 # Website Pusat KKN-PM UNM
 
-Buka `dist/index.html` di browser untuk menjalankan website di laptop. Seluruh foto dan font disertakan. Tautan sumber, email, dan peta membutuhkan koneksi internet.
+Buka `index.html` di browser untuk menjalankan website di laptop. Foto dan font disertakan. Tautan sumber, email, dan peta membutuhkan koneksi internet.
 
 ## Mengganti isi
 
-- Ubah judul, profil, dan kontak di `dist/index.html`.
-- Ubah berita, pengumuman, agenda, dan keterangan foto di `dist/content.js`.
-- Simpan foto di `dist/assets/`, lalu gunakan nama file yang sama di `content.js`.
-- Ubah warna dan tampilan di `dist/styles.css`.
+- Ubah judul, tahapan KKN, foto/nama/jabatan pimpinan, slogan, dan kontak di `index.html`.
+- Ubah berita, pengumuman, agenda, dan keterangan foto galeri di `content.js`.
+- Simpan foto di `assets/`, lalu tulis lokasi file yang sesuai pada `src` gambar di HTML atau kolom `image` di `content.js`.
+- Ubah warna dan tampilan di `styles.css`.
+
+Foto latar beranda menggunakan `assets/menara-pinisi.jpg`. Foto pimpinan menggunakan `farida-patittingi.png`, `oslan-jumadi.jpeg`, `suarlin.png`, `andi-aslinda.jpg`, `hartati.png`, `arifin-manggau.jpg`, dan `syahruddin.jpg` di folder `assets/`. Saat mengganti foto, perbarui juga nama, jabatan, teks alternatif `alt`, dan tautan sumber. Slogan berada di elemen berkelas `footer-motto`.
 
 Setiap berita mempunyai `id` unik, kategori, tanggal, judul, ringkasan, foto, paragraf, dan tautan sumber. Gunakan kategori `Literasi` atau `Kegiatan`, atau tambahkan tombol kategori di `index.html`.
 
-Gunakan tanggal berformat `YYYY-MM-DD`. Pengumuman dengan `expires` sebelum tanggal hari ini ditampilkan sebagai arsip. Jika `expires` dikosongkan, pengumuman terus aktif. Berita dan pengumuman bertanggal mendatang baru ditampilkan pada tanggal tersebut. Agenda bertanggal mendatang langsung dapat dilihat di kalender. Perhitungan hari menggunakan WITA.
+Gunakan tanggal berformat `YYYY-MM-DD`. Pengumuman dengan `expires` sebelum tanggal hari ini ditampilkan sebagai arsip. Jika `expires` dikosongkan, pengumuman terus aktif. Berita dan pengumuman bertanggal mendatang baru ditampilkan pada tanggal tersebut. Agenda bertanggal mendatang langsung terlihat pada kalender. Perhitungan hari menggunakan WITA.
 
-Simpan perubahan, lalu muat ulang browser. Setelah perubahan source, versi yang dihosting perlu dipublikasikan kembali.
+## Memublikasikan perubahan
 
-## Konten awal
+Simpan perubahan dan muat ulang browser untuk memeriksa hasilnya. Untuk GitHub Pages, unggah atau commit file yang diubah ke branch `main` repositori `syarifrif/pusat-kkn-pm-unm`. Tunggu proses GitHub Pages selesai, lalu muat ulang alamat publik. Jika masih melihat tampilan lama, tekan Ctrl+F5.
 
-Profil diringkas dari laman LP2M UNM. Berita serta foto dirujuk ke publikasi UNM dan Prodi Kewirausahaan. Pengumuman awal merupakan arsip. Agenda awal mencatat kegiatan pada 18 Februari dan 3 September 2026. Tambahkan jadwal mendatang setelah tersedia. Rujukan foto dan berita dapat dibuka dari tampilan berita dan galeri.
+## Sumber konten
+
+Profil dan identitas pimpinan dirujuk dari laman resmi UNM dan LP2M. Foto Kepala LP2M diambil dari profil publik PERMI. Sembilan tahapan KKN diringkas dari poster Alur Pelaksanaan KKN UNM yang diberikan pengelola. Jadwal dan ketentuan mengikuti pengumuman resmi yang berlaku. Rincian rujukan tersedia di `SUMBER_KONTEN.md`.
+
+Berita dan foto galeri dirujuk dari publikasi UNM dan Prodi Kewirausahaan. Pengumuman awal merupakan arsip. Agenda awal mencatat 18 Februari dan 3 September 2026. Tambahkan jadwal berikutnya setelah tersedia.

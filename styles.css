@@ -487,3 +487,119 @@ body.dialog-open { overflow: hidden; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; }
 }
+
+
+/* Beranda Pinisi, pimpinan, dan tahapan KKN. */
+.hero-pinisi { position: relative; isolation: isolate; background: #171e18; color: white; }
+.hero-pinisi .hero-background { position: absolute; inset: 0; z-index: -1; }
+.hero-background img { position: absolute; inset: 0 0 0 auto; width: 72%; height: 100%; object-fit: cover; object-position: 28% center; }
+.hero-background::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, #171e18 2%, rgb(23 30 24 / 97%) 28%, rgb(23 30 24 / 65%) 47%, rgb(23 30 24 / 12%) 75%), linear-gradient(0deg, rgb(12 18 12 / 55%), transparent 45%); }
+.hero-background figcaption { position: absolute; z-index: 1; right: max(48px, calc((100% - 1240px) / 2)); bottom: 28px; text-align: right; font-size: 14px; font-weight: 600; }
+.hero-background figcaption span { display: block; color: #d8dfd3; font-size: 10px; font-weight: 400; margin-top: 3px; }
+.hero-pinisi .hero-grid { position: relative; display: flex; min-height: 630px; gap: 0; padding-block: 70px 80px; }
+.hero-pinisi .hero-copy { width: min(100%, 610px); }
+.hero-pinisi .hero-copy .eyebrow { color: #f5d67b; }
+.hero-pinisi .small-rule { background: var(--gold); }
+.hero-pinisi .hero-description { color: #e2e6dc; }
+.hero-pinisi .highlight { color: var(--gold); }
+.hero-pinisi .highlight::after { height: 3px; bottom: 3px; right: 0; opacity: .7; }
+.hero-pinisi .button-dark { background: var(--gold); color: #242720; }
+.hero-pinisi .button-dark:hover { background: #ffda6d; }
+.hero-pinisi .hero-latest { border-color: rgb(255 255 255 / 22%); max-width: 455px; }
+.hero-pinisi .text-link:hover, .hero-pinisi .hero-latest:hover { color: var(--gold); }
+.leadership-section { padding-block: 66px 58px; }
+.leadership-primary { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+.leader-card { min-width: 0; }
+.leader-primary { display: flex; align-items: center; gap: 20px; background: var(--paper); padding: 18px; border: 1px solid #e6e6dc; border-radius: 5px; }
+.leader-portrait { flex: 0 0 110px; width: 110px; height: 143px; overflow: hidden; background: #ebede3; border-radius: 3px; }
+.leader-portrait img { width: 100%; height: 100%; object-fit: cover; object-position: center 15%; }
+.leader-square img { object-fit: contain; object-position: center; }
+.leader-info { min-width: 0; }
+.leader-role { color: #795607; font-size: 10px; font-weight: 600; line-height: 1.5; }
+.leader-info h3 { font-family: var(--body); font-size: 14px; line-height: 1.55; margin-top: 6px; }
+.leader-info a { display: inline-flex; gap: 10px; margin-top: 12px; color: var(--muted); font-size: 10px; }
+.leader-info a:hover, .leadership-credit a:hover { text-decoration: underline; color: #795607; }
+.vice-heading { margin-top: 35px; padding-bottom: 16px; border-bottom: 1px solid var(--line); font-family: var(--body); font-size: 13px; font-weight: 600; }
+.leadership-vice { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px; margin-top: 20px; }
+.leadership-vice .leader-card { display: flex; align-items: flex-start; gap: 14px; }
+.leadership-vice .leader-portrait { flex-basis: 82px; width: 82px; height: 110px; }
+.leadership-vice .leader-info { padding-top: 5px; }
+.leadership-vice h3 { font-size: 12px; line-height: 1.5; }
+.leader-field { color: var(--muted); font-size: 10px; line-height: 1.5; margin-top: 5px; }
+.leadership-credit { margin-top: 25px; font-size: 10px; color: var(--muted); }
+.leadership-credit a { text-decoration: underline; text-underline-offset: 3px; }
+.profile-section { background: #fbfbf7; }
+.stages-intro { display: flex; align-items: center; justify-content: space-between; gap: 45px; margin-bottom: 33px; }
+.stages-intro > p { max-width: 720px; font-size: 14px; color: var(--muted); }
+.stages-intro .text-link { flex-shrink: 0; font-size: 12px; }
+.kkn-stages { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; counter-reset: stage; }
+.kkn-stages > li { display: flex; align-items: flex-start; gap: 16px; padding: 24px 22px; border: 1px solid var(--line); border-radius: 4px; background: white; }
+.stage-number { display: grid; place-items: center; flex: 0 0 38px; height: 38px; border-radius: 50%; font-family: var(--heading); font-size: 14px; background: var(--gold); }
+.kkn-stages h3 { font-size: 16px; line-height: 1.4; letter-spacing: -.2px; }
+.kkn-stages p { font-size: 12px; line-height: 1.8; color: var(--muted); margin-top: 10px; }
+.stage-action { display: inline-flex; align-items: center; gap: 12px; margin-top: 14px; color: #785506; font-size: 10px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; }
+a.stage-action { text-decoration: underline; text-underline-offset: 4px; }
+.stages-note { margin-top: 23px; font-size: 11px; color: var(--muted); }
+.footer-motto { margin-top: 12px; color: var(--gold); font-size: 12px; letter-spacing: .25px; }
+@media (max-width: 1180px) and (min-width: 961px) { .main-navigation { gap: 13px; font-size: 10px; } .main-navigation .contact-nav { padding-inline: 9px; } }
+@media (max-width: 1150px) {
+  .leader-primary { gap: 13px; padding: 14px; }
+  .leader-primary .leader-portrait { flex-basis: 85px; width: 85px; height: 118px; }
+  .leader-primary h3 { font-size: 12px; }
+  .leadership-vice { gap: 20px; }
+  .leadership-vice .leader-card { display: block; }
+  .leadership-vice .leader-portrait { width: 100%; height: 180px; }
+  .leadership-vice .leader-portrait img { object-fit: contain; }
+  .leadership-vice .leader-info { padding-top: 10px; }
+  .kkn-stages > li { padding: 20px 16px; gap: 12px; }
+  .kkn-stages h3 { font-size: 15px; }
+}
+@media (max-width: 960px) {
+  .hero-pinisi .hero-grid { min-height: 570px; padding-block: 60px 80px; }
+  .hero-background img { width: 85%; }
+  .hero-background::after { background: linear-gradient(90deg, rgb(23 30 24 / 96%), rgb(23 30 24 / 72%) 45%, rgb(23 30 24 / 17%) 100%); }
+  .hero-background figcaption { right: 32px; font-size: 11px; }
+  .hero-pinisi .hero-actions { flex-direction: row; align-items: center; gap: 25px; }
+  .leadership-primary { gap: 14px; }
+  .leader-primary { flex-direction: column; align-items: stretch; }
+  .leader-primary .leader-portrait { flex-basis: auto; width: 100%; height: 160px; }
+  .leader-primary .leader-portrait img { object-fit: contain; }
+  .leader-primary .leader-info { padding: 2px 0 3px; }
+  .leadership-vice { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 23px; }
+  .leadership-vice .leader-card { display: flex; }
+  .leadership-vice .leader-portrait { flex: 0 0 86px; height: 115px; width: 86px; }
+  .leadership-vice .leader-info { padding-top: 4px; }
+  .kkn-stages { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .stages-intro { flex-direction: column; align-items: flex-start; gap: 13px; }
+}
+@media (max-width: 640px) {
+  .hero-pinisi .hero-grid { min-height: 635px; padding-block: 45px 100px; }
+  .hero-background img { width: 100%; object-position: 25% center; }
+  .hero-background::after { background: linear-gradient(90deg, rgb(16 23 17 / 87%), rgb(16 23 17 / 40%)), linear-gradient(0deg, rgb(16 23 17 / 75%), transparent 65%); }
+  .hero-background figcaption { right: 20px; bottom: 22px; font-size: 11px; }
+  .hero-background figcaption span { font-size: 9px; }
+  .hero-pinisi .hero-copy .eyebrow { font-size: 8px; letter-spacing: 1px; }
+  .hero-pinisi .hero-latest { gap: 10px; font-size: 9px; }
+  .hero-pinisi .latest-label { font-size: 7px; letter-spacing: .7px; }
+  .hero-pinisi .hero-actions { gap: 21px; }
+  .leadership-section { padding-block: 48px; }
+  .leadership-primary { grid-template-columns: 1fr; gap: 13px; }
+  .leader-primary { flex-direction: row; align-items: center; padding: 16px; gap: 18px; }
+  .leader-primary .leader-portrait { flex: 0 0 88px; width: 88px; height: 118px; }
+  .leader-primary h3 { font-size: 14px; }
+  .vice-heading { margin-top: 28px; font-size: 12px; }
+  .leadership-vice { gap: 22px 15px; }
+  .leadership-vice .leader-card { display: block; }
+  .leadership-vice .leader-portrait { width: 100%; height: 170px; }
+  .leadership-vice .leader-info { padding-top: 10px; }
+  .leadership-vice h3 { font-size: 12px; }
+  .leadership-credit { font-size: 9px; line-height: 1.8; }
+  .kkn-stages { grid-template-columns: 1fr; gap: 12px; }
+  .kkn-stages > li { padding: 22px 19px; gap: 16px; }
+  .kkn-stages h3 { font-size: 16px; }
+  .kkn-stages p { font-size: 12px; }
+  .stages-intro > p { font-size: 13px; }
+  .stages-note { font-size: 10px; }
+  .footer-identity { width: 100%; }
+  .footer-motto { font-size: 12px; }
+}
